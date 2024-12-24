@@ -1,0 +1,49 @@
+source ~/.bashrc
+(pythonmojomergeexample) Ryans-MacBook-Pro:pythonmojomergeexample ryanoates$ python3 --version
+Python 3.12.8
+
+
+magic - A high level package management tool by Modular for developing with Mojo and MAX.
+
+
+
+To get started, run `magic init` in your project directory.
+
+To see all available commands, run `magic --help` or `magic help`.
+
+Usage: magic [OPTIONS] <COMMAND>
+
+Commands:
+  init         Creates a new project
+  add          Adds dependencies to the project [aliases: a]
+  remove       Removes dependencies from the project [aliases: rm]
+  install      Install all dependencies [aliases: i]
+  update       Update dependencies as recorded in the local lock file
+  upgrade      Update the version of packages to the latest possible version, disregarding the manifest version constraints
+  run          Runs task in project [aliases: r]
+  exec         Run a command in a temporary environment [aliases: x]
+  shell        Start a shell in the pixi environment of the project [aliases: s]
+  shell-hook   Print the pixi environment activation script
+  project      Modify the project configuration file through the command line
+  task         Interact with tasks in the project
+  list         List project's packages [aliases: ls]
+  tree         Show a tree of project dependencies [aliases: t]
+  global       Subcommand for global package management actions [aliases: g]
+  auth         Login to prefix.dev or anaconda.org servers to access private channels
+  config       Configuration management
+  info         Information about the system, project and environments for the current machine
+  upload       Upload a conda package
+  search       Search a conda package
+  self-update  Update magic to the latest or a specific version
+  clean        Clean the parts of your system which are touched by pixi. Defaults to cleaning the environments and task cache. Use the `cache` subcommand to clean the cache
+  completion   Generates a completion script for a shell
+  telemetry    Configure how telemetry data is emitted from magic and Modular packages
+  help         Print this message or the help of the given subcommand(s)
+
+Options:
+  -v, --verbose...     Increase logging verbosity
+  -q, --quiet...       Decrease logging verbosity
+      --color <COLOR>  Whether the log needs to be colored [env: MAGIC_COLOR=] [default: auto] [possible values: always, never, auto]
+      --no-progress    Hide all progress bars [env: MAGIC_NO_PROGRESS=]
+  -h, --help           Print help
+  -V, --version        Print version
